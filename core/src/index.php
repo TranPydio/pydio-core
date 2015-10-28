@@ -22,7 +22,7 @@
  * Will dispatch the actions on the plugins.
  */
 
-// do nothing 01
+// do nothing 0 1
 include_once("base.conf.php");
 
 if( !isSet($_GET["action"]) && !isSet($_GET["get_action"])
