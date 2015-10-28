@@ -21,6 +21,8 @@
  * Description : main access point of the application, this script is called by any Ajax query.
  * Will dispatch the actions on the plugins.
  */
+
+// do nothing
 include_once("base.conf.php");
 
 if( !isSet($_GET["action"]) && !isSet($_GET["get_action"])
